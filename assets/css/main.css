@@ -1,6 +1,28 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
+
+.col-1-2 {
+  width: 48%;
+  float: left;
+}
+.col-2-2 {
+  width: 48%;
+  float: right;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
